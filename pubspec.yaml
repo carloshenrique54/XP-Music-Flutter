@@ -1,0 +1,28 @@
+name: musica
+description: "XP Music - Streaming de música"
+
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.14.2
+  http: ^1.2.1
+  audioplayers: ^6.0.0
+  image_picker: ^1.2.2
+  shared_preferences: ^2.3.0
+  shimmer: ^3.0.0
+  fl_chart: ^0.69.0
+  provider: ^6.1.2
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/xp_logo.svg
+    - assets/vinyl_nights.jpg
+    - assets/midnight_melodies.jpg
